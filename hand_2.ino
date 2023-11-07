@@ -31,5 +31,5 @@ void loop() {
   viServo2.write(angle2);
   viServo3.write(angle3);
   viServo4.write(angle4);
-  delay(200);
+  delay(107);8
 }
