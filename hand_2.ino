@@ -20,8 +20,8 @@ void loop() {
   
   angle = map(sensorValue,50,515,200,-113);
   angle2 = map(sensorValue2,50,515,200,-113);
-  angle3 = map(sensorValue3,50,515,200,-113);
-  angle4 = map(sensorValue4,50,515,200,-113);
+  angle3 = map(sensorValue3,50,515,-113,200);
+  angle4 = map(sensorValue4,50,515,-113,200);
   
   Serial.println(sensorValue+ sensorValue2+ sensorValue3+ sensorValue4);
   Serial.print("\t");
